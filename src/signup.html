@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Signup</title>
+   <link rel="stylesheet" href="signup.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div id="main">
+      <div class="signup-card">
+         <img src="https://img.icons8.com/fluency/96/add-user-group-man-man.png" alt="Signup Icon" class="signup-icon">
+         <h2>Create Your Account</h2>
+         <p>Join us and get started today</p>
+         <form action="/submitSignup" method="post">
+            <div>
+               <input type="text" name="user" placeholder="Full Name" required>
+            </div>
+            <div>
+               <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+               <input type="password" name="password" placeholder="Password" required>
+            </div>
+            <div>
+               <input type="submit" value="Sign Up" class="signup-btn">
+            </div>
+            <p class="signin-link">
+               Already have an account? <a href="/login">Sign in</a>
+            </p>
+         </form>
+      </div>
+   </div>
+</body>
+</html>

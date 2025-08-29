@@ -1,0 +1,101 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+   background: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+#main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+   padding: 20px;
+}
+
+.login-card {
+   background-color: rgba(255, 255, 255, 0.95);
+   padding: 30px 40px;
+   border-radius: 12px;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+   text-align: center;
+   max-width: 400px;
+   width: 100%;
+}
+
+.login-icon {
+   width: 80px;
+   margin-bottom: 15px;
+}
+
+.login-card h2 {
+   margin-bottom: 10px;
+   color: #333;
+}
+
+.login-card p {
+   margin-bottom: 20px;
+   color: #666;
+}
+
+form div {
+   margin-bottom: 15px;
+}
+
+form input[type="email"],
+form input[type="password"] {
+   width: 100%;
+   padding: 12px 15px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   font-size: 16px;
+   transition: border 0.3s ease;
+}
+
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+   border-color: #6c63ff;
+   outline: none;
+}
+
+.login-btn {
+   background-color: #6c63ff;
+   color: white;
+   border: none;
+   padding: 12px;
+   width: 100%;
+   font-size: 16px;
+   border-radius: 8px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+   background-color: #5848d8;
+}
+
+.signup-link {
+   margin-top: 15px;
+   font-size: 14px;
+   color: #444;
+}
+
+.signup-link a {
+   color: #6c63ff;
+   text-decoration: none;
+   font-weight: 500;
+}
+
+.signup-link a:hover {
+   text-decoration: underline;
+}

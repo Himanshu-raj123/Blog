@@ -1,0 +1,23 @@
+[
+   {
+      "user": "Hari Narayan",
+      "email": "hari1217.be23@chitkarauniversity.edu.in",
+      "password": "hari@123",
+      "status": true,
+      "role": "Admin"
+   },
+   {
+      "user": "Himanshu Raj",
+      "email": "himanshu1242.be23@chitkarauniversity.edu.in",
+      "password": "12345",
+      "status": true,
+      "role": "user"
+   },
+   {
+      "user": "Jatin",
+      "email": "jatin1258@gamil.com",
+      "password": "12345",
+      "status": true,
+      "role": "user"
+   }
+]
